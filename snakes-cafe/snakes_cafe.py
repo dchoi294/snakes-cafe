@@ -47,6 +47,7 @@ order = {
 }
 
 print(menu)
+ask_again = True
 while ask_again:
     user_input = input("> ").lower()
     if user_input == "quit":
